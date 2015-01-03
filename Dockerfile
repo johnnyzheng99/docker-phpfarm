@@ -59,10 +59,6 @@ RUN a2enmod rewrite
 RUN curl -o /ZendOptimizer.tar.gz http://downloads.zend.com/optimizer/3.3.9/ZendOptimizer-3.3.9-linux-glibc23-x86_64.tar.gz && \
     tar xvf /ZendOptimizer.tar.gz && \
     mv /ZendOptimizer*/data/5_2_x_comp/ZendOptimizer.so /phpfarm/inst/php-5.2.17/lib/php
-RUN cat >>/phpfarm/inst/php-5.2.17/lib/php.ini << EOF \
-extension_dir=/phpfarm/inst/php-5.2.17/lib/php \
-extension=ZendOptimizer.so \
-EOF
 
 # set path
 ENV PATH /phpfarm/inst/bin/:/usr/sbin:/usr/bin:/sbin:/bin
