@@ -6,7 +6,7 @@
 FROM debian:wheezy
 
 MAINTAINER Andreas Gohr, andi@splitbrain.org
-RUN aptitude udpate
+RUN aptitude update
 # add some build tools
 RUN apt-get update && \
     apt-get install -y \
