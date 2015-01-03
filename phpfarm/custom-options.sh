@@ -18,6 +18,7 @@ configoptions="$configoptions \
     --with-ttf \
     --with-mhash \
     --with-mcrypt \
+    --with-mysql \
     --with-libdir=$LIBPATH \
 "
 
