@@ -7,6 +7,7 @@ fi
 
 
 configoptions="$configoptions \
+    --disable-debug
     --enable-fastcgi \
     --with-bz2 \
     --with-curl \
