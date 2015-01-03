@@ -29,6 +29,7 @@ RUN apt-get update && \
     libmcrypt-dev \
     libt1-dev \
     libltdl-dev \
+    libmysql \
     libmhash-dev
 
 # install and run the phpfarm script
