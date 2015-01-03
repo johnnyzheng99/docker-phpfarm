@@ -19,6 +19,8 @@ configoptions="$configoptions \
     --with-mhash \
     --with-mcrypt \
     --with-mysql \
+    --with-mysql-sock \
+    --with-mysqli \
     --with-libdir=$LIBPATH \
 "
 
